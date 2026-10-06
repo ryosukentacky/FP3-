@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FP 第1章｜理解・記憶カード</title>
+<style>
+:root{--bg:#f5f7fb;--paper:#fff;--ink:#172033;--muted:#667085;--line:#e6e9ef;--accent:#243b64;--soft:#edf2fa}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;line-height:1.85}
+header{padding:48px 20px 28px;background:linear-gradient(135deg,#172033,#314d7c);color:white}
+.wrap{max-width:980px;margin:auto} h1{margin:0 0 8px;font-size:clamp(28px,5vw,46px)} .lead{margin:0;opacity:.85}
+.toolbar{position:sticky;top:0;z-index:10;background:rgba(245,247,251,.94);backdrop-filter:blur(12px);padding:14px 20px;border-bottom:1px solid var(--line)}
+.filters{max-width:980px;margin:auto;display:flex;gap:8px;overflow:auto} button{font:inherit}
+.filter,.tab{border:1px solid var(--line);background:white;border-radius:999px;padding:8px 13px;white-space:nowrap;cursor:pointer;color:var(--ink)}
+.filter.active,.tab.active{background:var(--accent);color:white;border-color:var(--accent)}
+main{max-width:980px;margin:26px auto;padding:0 20px 60px;display:grid;gap:18px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 8px 24px rgba(23,32,51,.05)}
+.card-head{display:flex;gap:14px;align-items:flex-start} .num{font-weight:800;color:#98a2b3;font-size:13px;padding-top:5px}
+.badge{display:inline-block;background:var(--soft);color:var(--accent);border-radius:999px;padding:3px 9px;font-size:12px;font-weight:700}
+h2{margin:5px 0 14px;font-size:24px} h3{margin:0 0 7px;font-size:17px} p{margin:0;white-space:pre-line}
+.tabs{display:flex;gap:7px;overflow:auto;padding:4px 0 14px} .tab{font-size:13px;padding:7px 11px}
+.panel{display:none;background:#fafbfc;border:1px solid var(--line);border-radius:15px;padding:17px} .panel.active{display:block}
+.count{margin-top:14px;font-size:13px;opacity:.75}
+footer{text-align:center;color:var(--muted);padding:0 20px 40px}
+@media(max-width:600px){header{padding-top:34px}.card{padding:17px;border-radius:18px}h2{font-size:21px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="badge">GitHub Pages Vocabulary Cards</div>
+  <h1>FP 第1章｜理解・記憶カード</h1>
+  <p class="lead">A 要点 → B 詳細 → C イメージ → D 具体例 → 確認 → 復習 → 一文記憶</p>
+  <div class="count">全 13 カード｜既存カードを保持した累積版</div>
+</div></header>
+<div class="toolbar"><div class="filters"><button class="filter active" data-cat="all">すべて</button><button class="filter" data-cat="FP基礎">FP基礎</button><button class="filter" data-cat="ライフプラン">ライフプラン</button><button class="filter" data-cat="6係数">6係数</button><button class="filter" data-cat="教育資金">教育資金</button><button class="filter" data-cat="住宅ローン">住宅ローン</button></div></div>
+<main>
+    <article class="card" data-cat="FP基礎">
+      <div class="card-head"><span class="num">01</span><div><span class="badge">FP基礎</span><h2>FPが守るべきこと</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="1-0">A 要点</button><button class="tab" data-panel="1-1">B 詳しい解説</button><button class="tab" data-panel="1-2">C イメージ理解</button><button class="tab" data-panel="1-3">D 具体例</button><button class="tab" data-panel="1-4">理解確認</button><button class="tab" data-panel="1-5">30秒復習</button><button class="tab" data-panel="1-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-1-0"><h3>A 要点</h3><p>顧客の利益を優先し、秘密を守り、必要な説明を行い、自分の専門範囲を越える業務は専門家につなぐことが基本です。</p></section><section class="panel" id="p-1-1"><h3>B 詳しい解説</h3><p>FPは顧客のお金や家族など重要な情報を扱います。そのため、顧客利益の優先、守秘義務、説明責任が重要です。また、税務・法律など他の専門資格の独占業務に踏み込まず、必要なら税理士・弁護士などの専門家へつなぎます。一般的な制度説明と、資格が必要な個別具体的な専門業務を区別するのがポイントです。</p></section><section class="panel" id="p-1-2"><h3>C イメージ理解</h3><p>FPは「何でも自分で解決する人」ではなく、家計全体を見ながら正しい専門家へ案内する総合案内役、と考えると分かりやすいです。</p></section><section class="panel" id="p-1-3"><h3>D 具体例</h3><p>相続税について制度の一般的な仕組みを説明することはできますが、個別の税務相談・税務代理・税務書類作成などは税理士の専門領域になります。</p></section><section class="panel" id="p-1-4"><h3>理解確認</h3><p>①顧客の秘密を第三者へ自由に話してよい？ → いいえ。 ②専門外の個別業務は？ → 専門家につなぐ。 ③FPが優先するものは？ → 顧客の利益。</p></section><section class="panel" id="p-1-5"><h3>30秒復習</h3><p>顧客第一／秘密を守る／きちんと説明／専門領域を越えない。</p></section><section class="panel" id="p-1-6"><h3>一文で覚える</h3><p>顧客第一・秘密を守る・きちんと説明・越境せず専門家へ。</p></section></div>
+    </article>
+    <article class="card" data-cat="ライフプラン">
+      <div class="card-head"><span class="num">02</span><div><span class="badge">ライフプラン</span><h2>キャッシュフロー表</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="2-0">A 要点</button><button class="tab" data-panel="2-1">B 詳しい解説</button><button class="tab" data-panel="2-2">C イメージ理解</button><button class="tab" data-panel="2-3">D 具体例</button><button class="tab" data-panel="2-4">理解確認</button><button class="tab" data-panel="2-5">30秒復習</button><button class="tab" data-panel="2-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-2-0"><h3>A 要点</h3><p>家計の収入・支出・年間収支・貯蓄残高などを年ごとに予測し、将来のお金の流れを見る表です。</p></section><section class="panel" id="p-2-1"><h3>B 詳しい解説</h3><p>基本は「収入－支出＝年間収支」。さらに「前年の貯蓄残高＋年間収支＝その年の貯蓄残高」とつなげます。将来の収入や支出を変動率で見積もる場合は、現在額×(1＋変動率)^年数という考え方を使います。</p></section><section class="panel" id="p-2-2"><h3>C イメージ理解</h3><p>個人バランスシートが家計の「写真」なら、キャッシュフロー表は家計のお金が年ごとに動く「動画」です。</p></section><section class="panel" id="p-2-3"><h3>D 具体例</h3><p>前年貯蓄500万円、今年の収入500万円、支出400万円なら年間収支は＋100万円。単純化すれば今年末の貯蓄残高は600万円です。</p></section><section class="panel" id="p-2-4"><h3>理解確認</h3><p>①収入500万円・支出450万円の年間収支は？ → ＋50万円。 ②何を年ごとに見る？ → 収入・支出・貯蓄残高など。 ③写真に近いのは？ → 個人バランスシート。</p></section><section class="panel" id="p-2-5"><h3>30秒復習</h3><p>収入－支出＝年間収支。前年貯蓄＋年間収支＝現在の貯蓄残高。</p></section><section class="panel" id="p-2-6"><h3>一文で覚える</h3><p>キャッシュフロー表は、将来のお金の流れを年ごとに見る表。</p></section></div>
+    </article>
+    <article class="card" data-cat="ライフプラン">
+      <div class="card-head"><span class="num">03</span><div><span class="badge">ライフプラン</span><h2>可処分所得</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="3-0">A 要点</button><button class="tab" data-panel="3-1">B 詳しい解説</button><button class="tab" data-panel="3-2">C イメージ理解</button><button class="tab" data-panel="3-3">D 具体例</button><button class="tab" data-panel="3-4">理解確認</button><button class="tab" data-panel="3-5">30秒復習</button><button class="tab" data-panel="3-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-3-0"><h3>A 要点</h3><p>収入から税金と社会保険料を差し引いた、実際に家計で使えるお金です。</p></section><section class="panel" id="p-3-1"><h3>B 詳しい解説</h3><p>FP学習では「年収－所得税－住民税－社会保険料」で考えます。食費や家賃などの生活費を引いた後の金額ではありません。</p></section><section class="panel" id="p-3-2"><h3>C イメージ理解</h3><p>給与という大きな袋から、税金と社会保険料を先に取り出し、家計の手元に残った袋が可処分所得です。</p></section><section class="panel" id="p-3-3"><h3>D 具体例</h3><p>年収500万円、所得税10万円、住民税20万円、社会保険料70万円なら、可処分所得は420万円です。</p></section><section class="panel" id="p-3-4"><h3>理解確認</h3><p>①生活費を引く？ → 引かない。 ②主に何を引く？ → 所得税・住民税・社会保険料。 ③その後何に使う？ → 生活費・貯蓄など。</p></section><section class="panel" id="p-3-5"><h3>30秒復習</h3><p>年収 → 税・社会保険料を引く → 可処分所得 → 支出 → 年間収支。</p></section><section class="panel" id="p-3-6"><h3>一文で覚える</h3><p>可処分所得＝年収－所得税－住民税－社会保険料。</p></section></div>
+    </article>
+    <article class="card" data-cat="6係数">
+      <div class="card-head"><span class="num">04</span><div><span class="badge">6係数</span><h2>終価係数</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="4-0">A 要点</button><button class="tab" data-panel="4-1">B 詳しい解説</button><button class="tab" data-panel="4-2">C イメージ理解</button><button class="tab" data-panel="4-3">D 具体例</button><button class="tab" data-panel="4-4">理解確認</button><button class="tab" data-panel="4-5">30秒復習</button><button class="tab" data-panel="4-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-4-0"><h3>A 要点</h3><p>今ある一括資金を一定利率で運用したとき、将来いくらになるかを求める係数です。</p></section><section class="panel" id="p-4-1"><h3>B 詳しい解説</h3><p>現在額×終価係数＝将来額。複利で増えるため、単純に利息を足すのではなく、利息にも利息がつく効果を含めます。</p></section><section class="panel" id="p-4-2"><h3>C イメージ理解</h3><p>「今」のお金を未来へ飛ばす係数です。現在 → 将来。</p></section><section class="panel" id="p-4-3"><h3>D 具体例</h3><p>100万円を年3％で5年間運用し、終価係数が1.159なら、100万円×1.159＝115.9万円。</p></section><section class="panel" id="p-4-4"><h3>理解確認</h3><p>①スタートは？ → 現在の一括資金。 ②求めるものは？ → 将来額。 ③逆方向は？ → 現価係数。</p></section><section class="panel" id="p-4-5"><h3>30秒復習</h3><p>今あるお金／一括／未来へ。</p></section><section class="panel" id="p-4-6"><h3>一文で覚える</h3><p>終価係数＝今あるお金を未来へ飛ばす係数。</p></section></div>
+    </article>
+    <article class="card" data-cat="6係数">
+      <div class="card-head"><span class="num">05</span><div><span class="badge">6係数</span><h2>現価係数</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="5-0">A 要点</button><button class="tab" data-panel="5-1">B 詳しい解説</button><button class="tab" data-panel="5-2">C イメージ理解</button><button class="tab" data-panel="5-3">D 具体例</button><button class="tab" data-panel="5-4">理解確認</button><button class="tab" data-panel="5-5">30秒復習</button><button class="tab" data-panel="5-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-5-0"><h3>A 要点</h3><p>将来必要な金額を得るために、今いくら一括で用意すればよいかを求める係数です。</p></section><section class="panel" id="p-5-1"><h3>B 詳しい解説</h3><p>将来額×現価係数＝現在必要額。将来の金額を現在価値へ割り戻します。終価係数とは逆方向です。</p></section><section class="panel" id="p-5-2"><h3>C イメージ理解</h3><p>未来にあるお金を現在まで引き戻すイメージです。将来 → 現在。</p></section><section class="panel" id="p-5-3"><h3>D 具体例</h3><p>5年後に100万円必要で、年3％・現価係数0.863なら、100万円×0.863＝86.3万円を現在用意するイメージです。</p></section><section class="panel" id="p-5-4"><h3>理解確認</h3><p>①将来100万円欲しい。今一括でいくら？ → 現価係数。 ②逆方向は？ → 終価係数。 ③毎年積み立てる額を求めるなら？ → 減債基金係数。</p></section><section class="panel" id="p-5-5"><h3>30秒復習</h3><p>未来の目標額 → 今の一括資金。</p></section><section class="panel" id="p-5-6"><h3>一文で覚える</h3><p>現価係数＝未来に必要なお金を現在まで引き戻す係数。</p></section></div>
+    </article>
+    <article class="card" data-cat="6係数">
+      <div class="card-head"><span class="num">06</span><div><span class="badge">6係数</span><h2>年金終価係数</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="6-0">A 要点</button><button class="tab" data-panel="6-1">B 詳しい解説</button><button class="tab" data-panel="6-2">C イメージ理解</button><button class="tab" data-panel="6-3">D 具体例</button><button class="tab" data-panel="6-4">理解確認</button><button class="tab" data-panel="6-5">30秒復習</button><button class="tab" data-panel="6-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-6-0"><h3>A 要点</h3><p>毎年同じ金額を積み立てた場合、将来いくらになるかを求める係数です。</p></section><section class="panel" id="p-6-1"><h3>B 詳しい解説</h3><p>毎年の積立額×年金終価係数＝将来額。各年の積立金は運用期間が異なるため、その運用効果もまとめて計算します。「年金」は公的年金専用という意味ではなく、毎期一定額のお金の流れを表します。</p></section><section class="panel" id="p-6-2"><h3>C イメージ理解</h3><p>毎年貯金箱に同じ金額を入れ、それぞれを運用しながら最後の時点へ集めます。毎年 → 将来。</p></section><section class="panel" id="p-6-3"><h3>D 具体例</h3><p>毎年100万円、年3％で5年間積み立て、係数が5.309なら、100万円×5.309＝530.9万円。</p></section><section class="panel" id="p-6-4"><h3>理解確認</h3><p>①毎年50万円を積み立て10年後いくら？ → 年金終価係数。 ②今500万円を一括運用なら？ → 終価係数。 ③逆方向は？ → 減債基金係数。</p></section><section class="panel" id="p-6-5"><h3>30秒復習</h3><p>毎年の積立額 → 将来の合計額。</p></section><section class="panel" id="p-6-6"><h3>一文で覚える</h3><p>年金終価係数＝毎年コツコツ積み立てたら最後にいくら？</p></section></div>
+    </article>
+    <article class="card" data-cat="6係数">
+      <div class="card-head"><span class="num">07</span><div><span class="badge">6係数</span><h2>減債基金係数</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="7-0">A 要点</button><button class="tab" data-panel="7-1">B 詳しい解説</button><button class="tab" data-panel="7-2">C イメージ理解</button><button class="tab" data-panel="7-3">D 具体例</button><button class="tab" data-panel="7-4">理解確認</button><button class="tab" data-panel="7-5">30秒復習</button><button class="tab" data-panel="7-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-7-0"><h3>A 要点</h3><p>将来の目標額を作るために、毎年いくら積み立てればよいかを求める係数です。</p></section><section class="panel" id="p-7-1"><h3>B 詳しい解説</h3><p>将来必要額×減債基金係数＝毎年の積立額。運用益を考慮するため、目標額を単純に年数で割る場合とは異なります。年金終価係数の逆方向です。</p></section><section class="panel" id="p-7-2"><h3>C イメージ理解</h3><p>未来のゴール金額から逆算して、毎年入れるべき金額を決めます。将来 → 毎年。</p></section><section class="panel" id="p-7-3"><h3>D 具体例</h3><p>5年後に500万円必要で係数が0.188なら、500万円×0.188＝毎年94万円を積み立てるイメージです。</p></section><section class="panel" id="p-7-4"><h3>理解確認</h3><p>①10年後1,000万円、毎年いくら積立？ → 減債基金係数。 ②毎年50万円、10年後いくら？ → 年金終価係数。 ③今一括でいくら必要？ → 現価係数。</p></section><section class="panel" id="p-7-5"><h3>30秒復習</h3><p>将来の目標額 → 毎年の積立額。</p></section><section class="panel" id="p-7-6"><h3>一文で覚える</h3><p>減債基金係数＝将来の目標額から毎年の積立額を逆算する係数。</p></section></div>
+    </article>
+    <article class="card" data-cat="6係数">
+      <div class="card-head"><span class="num">08</span><div><span class="badge">6係数</span><h2>資本回収係数</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="8-0">A 要点</button><button class="tab" data-panel="8-1">B 詳しい解説</button><button class="tab" data-panel="8-2">C イメージ理解</button><button class="tab" data-panel="8-3">D 具体例</button><button class="tab" data-panel="8-4">理解確認</button><button class="tab" data-panel="8-5">30秒復習</button><button class="tab" data-panel="8-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-8-0"><h3>A 要点</h3><p>今ある一括資金を運用しながら取り崩す場合、毎年いくら受け取れるかを求める係数です。</p></section><section class="panel" id="p-8-1"><h3>B 詳しい解説</h3><p>現在額×資本回収係数＝毎年の受取額。元本だけでなく残高の運用も考慮しながら一定期間で取り崩す考え方です。</p></section><section class="panel" id="p-8-2"><h3>C イメージ理解</h3><p>大きな一つの資金を、毎年受け取る小さなお金へ分けていきます。現在 → 毎年。</p></section><section class="panel" id="p-8-3"><h3>D 具体例</h3><p>現在1,000万円、資本回収係数0.117なら、1,000万円×0.117＝毎年117万円。</p></section><section class="panel" id="p-8-4"><h3>理解確認</h3><p>①今1,000万円を10年間取り崩すと毎年いくら？ → 資本回収係数。 ②将来1,000万円のため毎年いくら積立？ → 減債基金係数。 ③逆方向は？ → 年金現価係数。</p></section><section class="panel" id="p-8-5"><h3>30秒復習</h3><p>今ある一括資金 → 毎年の受取額。</p></section><section class="panel" id="p-8-6"><h3>一文で覚える</h3><p>資本回収係数＝今あるまとまったお金を毎年いくら受け取れるかに変換する係数。</p></section></div>
+    </article>
+    <article class="card" data-cat="6係数">
+      <div class="card-head"><span class="num">09</span><div><span class="badge">6係数</span><h2>年金現価係数</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="9-0">A 要点</button><button class="tab" data-panel="9-1">B 詳しい解説</button><button class="tab" data-panel="9-2">C イメージ理解</button><button class="tab" data-panel="9-3">D 具体例</button><button class="tab" data-panel="9-4">理解確認</button><button class="tab" data-panel="9-5">30秒復習</button><button class="tab" data-panel="9-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-9-0"><h3>A 要点</h3><p>将来、毎年一定額を受け取るために、現在いくら一括で必要かを求める係数です。</p></section><section class="panel" id="p-9-1"><h3>B 詳しい解説</h3><p>毎年の受取額×年金現価係数＝現在必要額。将来の各年の受取額を現在価値に割り戻してまとめます。資本回収係数とは逆方向です。</p></section><section class="panel" id="p-9-2"><h3>C イメージ理解</h3><p>未来に毎年並んでいるお金を全部「今」に引き寄せ、一つの資金にまとめます。毎年 → 現在。</p></section><section class="panel" id="p-9-3"><h3>D 具体例</h3><p>今後5年間毎年100万円を受け取り、年金現価係数が4.580なら、現在必要額は100万円×4.580＝458万円。</p></section><section class="panel" id="p-9-4"><h3>理解確認</h3><p>①今後10年間毎年100万円欲しい。今いくら？ → 年金現価係数。 ②今1,000万円から毎年いくら？ → 資本回収係数。 ③毎年積立して将来いくら？ → 年金終価係数。</p></section><section class="panel" id="p-9-5"><h3>30秒復習</h3><p>毎年の受取額 → 現在の一括資金。</p></section><section class="panel" id="p-9-6"><h3>一文で覚える</h3><p>年金現価係数＝毎年○万円欲しい。そのために今いくら必要？</p></section></div>
+    </article>
+    <article class="card" data-cat="教育資金">
+      <div class="card-head"><span class="num">10</span><div><span class="badge">教育資金</span><h2>こども保険（学資保険）</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="10-0">A 要点</button><button class="tab" data-panel="10-1">B 詳しい解説</button><button class="tab" data-panel="10-2">C イメージ理解</button><button class="tab" data-panel="10-3">D 具体例</button><button class="tab" data-panel="10-4">理解確認</button><button class="tab" data-panel="10-5">30秒復習</button><button class="tab" data-panel="10-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-10-0"><h3>A 要点</h3><p>子どもの進学などに必要な教育資金を計画的に準備するための保険です。</p></section><section class="panel" id="p-10-1"><h3>B 詳しい解説</h3><p>保険料を払い、契約で定めた進学時期などに祝金・満期保険金等を受け取る商品があります。契約者である親などが死亡・高度障害状態になった場合、契約内容により以後の保険料払込みが免除される仕組みもあります。</p></section><section class="panel" id="p-10-2"><h3>C イメージ理解</h3><p>「教育費用の貯金箱」に保障機能を組み合わせたイメージです。</p></section><section class="panel" id="p-10-3"><h3>D 具体例</h3><p>子どもが0歳のときに加入し、18歳の大学進学時に満期保険金等を受け取るよう準備します。途中で契約者に万一のことがあった場合、契約に応じて保険料払込免除などが機能します。</p></section><section class="panel" id="p-10-4"><h3>理解確認</h3><p>①主目的は？ → 教育資金準備。 ②親に万一なら？ → 契約により払込免除など。 ③必ず元本以上？ → いいえ。</p></section><section class="panel" id="p-10-5"><h3>30秒復習</h3><p>教育資金＋保障。途中解約や商品条件によって元本割れする場合もある。</p></section><section class="panel" id="p-10-6"><h3>一文で覚える</h3><p>こども保険＝教育資金を準備しながら、親の万一にも備える保険。</p></section></div>
+    </article>
+    <article class="card" data-cat="教育資金">
+      <div class="card-head"><span class="num">11</span><div><span class="badge">教育資金</span><h2>教育一般貸付</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="11-0">A 要点</button><button class="tab" data-panel="11-1">B 詳しい解説</button><button class="tab" data-panel="11-2">C イメージ理解</button><button class="tab" data-panel="11-3">D 具体例</button><button class="tab" data-panel="11-4">理解確認</button><button class="tab" data-panel="11-5">30秒復習</button><button class="tab" data-panel="11-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-11-0"><h3>A 要点</h3><p>日本政策金融公庫が扱う教育費向けの公的融資で、一般に「国の教育ローン」と呼ばれます。</p></section><section class="panel" id="p-11-1"><h3>B 詳しい解説</h3><p>進学・在学に必要な教育費を支える融資です。基本的には保護者などが借りる点が、学生本人が借りる貸与型奨学金との重要な違いです。</p></section><section class="panel" id="p-11-2"><h3>C イメージ理解</h3><p>大学進学でまとまった教育費が必要になったとき、保護者側から教育費を支えるローンです。</p></section><section class="panel" id="p-11-3"><h3>D 具体例</h3><p>入学金・授業料・教材費・受験費用・自宅外通学の住居費など、対象となる教育関連費用に利用できます。</p></section><section class="panel" id="p-11-4"><h3>理解確認</h3><p>①別名は？ → 国の教育ローン。 ②代表的な機関は？ → 日本政策金融公庫。 ③主に誰が借りる？ → 保護者など。</p></section><section class="panel" id="p-11-5"><h3>30秒復習</h3><p>教育一般貸付 → 国の教育ローン → 日本政策金融公庫 → 主に保護者。</p></section><section class="panel" id="p-11-6"><h3>一文で覚える</h3><p>教育一般貸付＝日本政策金融公庫から主に保護者が借りる国の教育ローン。</p></section></div>
+    </article>
+    <article class="card" data-cat="教育資金">
+      <div class="card-head"><span class="num">12</span><div><span class="badge">教育資金</span><h2>奨学金制度</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="12-0">A 要点</button><button class="tab" data-panel="12-1">B 詳しい解説</button><button class="tab" data-panel="12-2">C イメージ理解</button><button class="tab" data-panel="12-3">D 具体例</button><button class="tab" data-panel="12-4">理解確認</button><button class="tab" data-panel="12-5">30秒復習</button><button class="tab" data-panel="12-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-12-0"><h3>A 要点</h3><p>学生の進学・修学を経済的に支援する制度で、代表例に日本学生支援機構（JASSO）の奨学金があります。</p></section><section class="panel" id="p-12-1"><h3>B 詳しい解説</h3><p>大きく給付型と貸与型があります。給付型は原則返済不要。JASSOの貸与型では、第一種は無利子、第二種は有利子です。採用には学力・家計など所定の基準があります。</p></section><section class="panel" id="p-12-2"><h3>C イメージ理解</h3><p>「もらう支援」が給付型、「借りる支援」が貸与型。貸与型では学生本人が借り、返還します。</p></section><section class="panel" id="p-12-3"><h3>D 具体例</h3><p>大学進学費用が不足する学生がJASSOの貸与型奨学金を利用し、卒業後などに本人が返還していくケースです。</p></section><section class="panel" id="p-12-4"><h3>理解確認</h3><p>①返済不要は？ → 給付型。 ②第一種は？ → 無利子。 ③第二種は？ → 有利子。</p></section><section class="panel" id="p-12-5"><h3>30秒復習</h3><p>給付＝返さない／貸与＝返す／第一種＝無利子／第二種＝有利子。</p></section><section class="panel" id="p-12-6"><h3>一文で覚える</h3><p>奨学金＝給付型は返さない、貸与型は返す。第一種は無利子、第二種は有利子。</p></section></div>
+    </article>
+    <article class="card" data-cat="住宅ローン">
+      <div class="card-head"><span class="num">13</span><div><span class="badge">住宅ローン</span><h2>住宅ローンの金利タイプ</h2></div></div>
+      <div class="tabs"><button class="tab active" data-panel="13-0">A 要点</button><button class="tab" data-panel="13-1">B 詳しい解説</button><button class="tab" data-panel="13-2">C イメージ理解</button><button class="tab" data-panel="13-3">D 具体例</button><button class="tab" data-panel="13-4">理解確認</button><button class="tab" data-panel="13-5">30秒復習</button><button class="tab" data-panel="13-6">一文で覚える</button></div>
+      <div class="panels"><section class="panel active" id="p-13-0"><h3>A 要点</h3><p>住宅ローンの代表的な金利タイプは、固定金利型・変動金利型・固定金利期間選択型です。違いは「金利がいつ変わる可能性があるか」です。</p></section><section class="panel" id="p-13-1"><h3>B 詳しい解説</h3><p>固定金利型は一定期間または全期間で金利を固定します。変動金利型は市場金利などに応じて適用金利が見直されます。固定金利期間選択型は当初3年・5年・10年など一定期間の金利を固定し、固定期間終了後にその時点の条件に基づいて金利タイプを選択するなどの対応をします。</p></section><section class="panel" id="p-13-2"><h3>C イメージ理解</h3><p>固定＝🔒────────／変動＝📈📉📈📉／期間選択＝🔒🔒🔒｜📈📉。固定期間選択型は「最後まで固定」ではなく「一定期間だけ固定」です。</p></section><section class="panel" id="p-13-3"><h3>D 具体例</h3><p>10年固定を選んだ場合、当初10年間は固定。その後は固定期間が終了し、その時点の金利状況や商品条件に基づいて見直されます。</p></section><section class="panel" id="p-13-4"><h3>理解確認</h3><p>①全期間安定させたい？ → 全期間固定金利型。 ②市場金利の影響を受ける？ → 変動金利型。 ③最初の10年だけ固定？ → 固定金利期間選択型。</p></section><section class="panel" id="p-13-5"><h3>30秒復習</h3><p>固定＝安定／変動＝金利に合わせて動く／期間選択＝最初の一定期間だけ固定。</p></section><section class="panel" id="p-13-6"><h3>一文で覚える</h3><p>固定＝ずっと安定、変動＝金利に合わせて動く、期間選択＝最初だけ固定。</p></section></div>
+    </article></main>
+<footer>FP学習カード｜クリックして見出しを切り替えられます。</footer>
+<script>
+document.querySelectorAll('.filter').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active')); b.classList.add('active');
+ const c=b.dataset.cat; document.querySelectorAll('.card').forEach(x=>x.style.display=(c==='all'||x.dataset.cat===c)?'block':'none');
+});
+document.querySelectorAll('.card').forEach(card=>{
+ card.querySelectorAll('.tab').forEach(tab=>tab.onclick=()=>{
+   card.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+   card.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+   tab.classList.add('active'); card.querySelector('#p-'+tab.dataset.panel).classList.add('active');
+ });
+});
+</script>
+</body></html>
